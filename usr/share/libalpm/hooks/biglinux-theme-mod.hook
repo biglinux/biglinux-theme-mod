@@ -1,0 +1,12 @@
+[Trigger]
+Type = Package
+Operation = Install
+Operation = Upgrade
+Target =  biglinux-theme-mod
+Target =  breeze-gtk
+
+
+[Action]
+Description = Create mod version of some themes
+When = PostTransaction
+Exec = /usr/share/libalpm/scripts/biglinux-theme-mod

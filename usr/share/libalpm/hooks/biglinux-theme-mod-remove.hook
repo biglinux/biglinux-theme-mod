@@ -1,0 +1,10 @@
+[Trigger]
+Type = Package
+Operation = Remove
+Target =  biglinux-theme-mod
+
+
+[Action]
+Description = Remove themes modded by biglinux script
+When = PostTransaction
+Exec = /usr/share/libalpm/scripts/biglinux-theme-mod-remove

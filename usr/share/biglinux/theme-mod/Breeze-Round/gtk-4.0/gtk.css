@@ -1,0 +1,116 @@
+/*
+#BigLinux mod to make Breeze Round
+*/
+
+box  grid button {
+ 	border-radius: 6px;
+	box-shadow: 0px 1px 2px 0px alpha(@theme_fg_color_breeze, 0.2); 
+	border: 0;
+	margin:  1px;
+ 	transition: all 0.4s ease 0s;
+}
+
+
+headerbar {
+	padding: 0px 12px;
+	margin-top: -2px;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+}
+
+
+headerbar button {
+	border-color: transparent;
+}
+
+menubutton button {
+	background: transparent;
+}
+
+
+headerbar button:hover {
+	background-color: @theme_button_decoration_hover_insensitive_breeze;
+}
+
+popover arrow  {
+  background: transparent;
+  outline-color: transparent;
+  border-color: transparent;
+  color: transparent;
+  box-shadow: none;
+}
+
+popover contents {
+	margin-top: -10px;
+	border-radius: 8px;
+	opacity: 0.85;
+	background-color: @theme_base_color;
+	box-shadow: 0px 0px 14px 0px alpha(@theme_fg_color_breeze, 0.2); 
+	padding: 6px;
+}
+
+list {
+border-radius: 8px;
+padding: 10px;
+margin: 10px;
+}
+
+popover modelbutton {
+padding: 6px;
+border-radius: 6px;
+border: 0;
+}
+
+list row:hover {
+	background-color: @theme_button_decoration_hover_insensitive_breeze;
+}
+
+windowcontrols {
+	padding-right: 10px;
+}
+
+windowcontrols .minimize:hover {
+	background: #428afe;
+	color: #fff;
+	border-radius: 50%;
+}
+
+windowcontrols .maximize:hover {
+	background: #428afe;
+	color: #fff;
+	border-radius: 50%;
+	
+}
+
+windowcontrols .close:hover {
+	background: #da4453;
+	color: #fff;
+	border-radius: 50%;
+}
+
+.navigation-sidebar {
+	box-shadow: 0px 0px 14px 0px alpha(@theme_fg_color_breeze, 0.2); 
+}
+
+
+.navigation-sidebar .sidebar-row {
+	border-radius: 8px;
+}
+
+.navigation-sidebar .sidebar-row:hover {
+	box-shadow: 0px 0px 4px 0px alpha(@theme_fg_color_breeze, 0.2); 
+}
+
+popover modelbutton:hover {
+	border-radius: 8px;
+}
+
+windowcontrols button  {
+	margin-left: 15px;
+	padding: 0;
+}
+
+.background {
+border-top-left-radius: 12px;
+border-top-right-radius: 12px;
+}

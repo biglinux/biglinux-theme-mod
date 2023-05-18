@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Remove
+rm -Rf /usr/share/themes/Breeze-Round
+rm -Rf /usr/share/themes/Breeze-Round-Dark

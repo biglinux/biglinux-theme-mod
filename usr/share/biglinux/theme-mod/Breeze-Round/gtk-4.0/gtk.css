@@ -1,6 +1,4 @@
-/*
-#BigLinux mod to make Breeze Round
-*/
+@import 'colors.css';
 
 box  grid button {
  	border-radius: 6px;

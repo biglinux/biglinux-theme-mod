@@ -9,9 +9,9 @@ cp -Rf /usr/share/themes/Breeze-Dark /usr/share/themes/Breeze-Round-Dark
 # Add changes in Round Folder
 
 # GTK 4
-cat /usr/share/biglinux/theme-mod/Breeze-Round/gtk-4.0/gtk.css >> /usr/share/themes/Breeze-Round/gtk-4.0/gtk.css
-cat /usr/share/biglinux/theme-mod/Breeze-Round/gtk-4.0/gtk.css >> /usr/share/themes/Breeze-Round-Dark/gtk-4.0/gtk.css
+cat /usr/share/biglinux/theme-mod/Breeze-Round/gtk-4.0/gtk.css >> /usr/share/themes/Breeze-Round/gtk-4.0/gtk.css 2> /dev/null
+cat /usr/share/biglinux/theme-mod/Breeze-Round/gtk-4.0/gtk.css >> /usr/share/themes/Breeze-Round-Dark/gtk-4.0/gtk.css 2> /dev/null
 
 # GTK 3
-cat /usr/share/biglinux/theme-mod/Breeze-Round/gtk-3.0/gtk.css >> /usr/share/themes/Breeze-Round/gtk-3.0/gtk.css
-cat /usr/share/biglinux/theme-mod/Breeze-Round/gtk-3.0/gtk.css >> /usr/share/themes/Breeze-Round-Dark/gtk-3.0/gtk.css
+cat /usr/share/biglinux/theme-mod/Breeze-Round/gtk-3.0/gtk.css >> /usr/share/themes/Breeze-Round/gtk-3.0/gtk.css 2> /dev/null
+cat /usr/share/biglinux/theme-mod/Breeze-Round/gtk-3.0/gtk.css >> /usr/share/themes/Breeze-Round-Dark/gtk-3.0/gtk.css 2> /dev/null

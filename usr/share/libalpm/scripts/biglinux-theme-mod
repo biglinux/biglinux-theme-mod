@@ -11,6 +11,7 @@ cp -Rf /usr/share/themes/Breeze-Dark /usr/share/themes/Breeze-Round-Dark
 # GTK 4
 cat /usr/share/biglinux/theme-mod/Breeze-Round/gtk-4.0/gtk.css >> /usr/share/themes/Breeze-Round/gtk-4.0/gtk.css 2> /dev/null
 cat /usr/share/biglinux/theme-mod/Breeze-Round/gtk-4.0/gtk.css >> /usr/share/themes/Breeze-Round-Dark/gtk-4.0/gtk.css 2> /dev/null
+sed -i 's|Breeze-Dark|Breeze-Round-Dark|g' /usr/share/themes/Breeze-Round/gtk-4.0/gtk-dark.css
 
 # GTK 3
 cat /usr/share/biglinux/theme-mod/Breeze-Round/gtk-3.0/gtk.css >> /usr/share/themes/Breeze-Round/gtk-3.0/gtk.css 2> /dev/null

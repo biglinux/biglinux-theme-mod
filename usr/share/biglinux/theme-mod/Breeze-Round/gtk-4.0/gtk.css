@@ -1,4 +1,3 @@
-@import 'colors.css';
 
 box  grid button {
  	border-radius: 6px;
@@ -6,14 +5,6 @@ box  grid button {
 	border: 0;
 	margin:  1px;
  	transition: all 0.4s ease 0s;
-}
-
-
-headerbar {
-	padding: 0px 12px;
-	margin-top: -2px;
-	border-top-left-radius: 8px;
-	border-top-right-radius: 8px;
 }
 
 
@@ -63,28 +54,8 @@ list row:hover {
 	background-color: @theme_button_decoration_hover_insensitive_breeze;
 }
 
-windowcontrols {
-	padding-right: 10px;
-}
 
-windowcontrols .minimize:hover {
-	background: #428afe;
-	color: #fff;
-	border-radius: 50%;
-}
 
-windowcontrols .maximize:hover {
-	background: #428afe;
-	color: #fff;
-	border-radius: 50%;
-	
-}
-
-windowcontrols .close:hover {
-	background: #da4453;
-	color: #fff;
-	border-radius: 50%;
-}
 
 .navigation-sidebar {
 	box-shadow: 0px 0px 14px 0px alpha(@theme_fg_color_breeze, 0.2); 
@@ -103,12 +74,21 @@ popover modelbutton:hover {
 	border-radius: 8px;
 }
 
-windowcontrols button  {
-	margin-left: 15px;
-	padding: 0;
+
+.csd {
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
 }
 
-.background {
-border-top-left-radius: 12px;
-border-top-right-radius: 12px;
-}
+headerbar windowcontrols button,
+.titlebar windowcontrols button {
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  min-height: 24px;
+  min-width: 24px;
+  -gtk-icon-size: 16px;
+  padding: 0;
+  margin-top: -14px;
+  padding-top: 28px;
+  margin-bottom: -14px;
+  padding-bottom: 28px; }
